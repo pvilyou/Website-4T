@@ -45,6 +45,7 @@ function filterFunction() {
 			a[i].style.display = "none";
 		}
 	}
+	document.getElementById("myDropdown").classList.toggle("show");
 }
 
 
@@ -111,3 +112,11 @@ function filterFunction() {
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();   
 		});
+
+
+
+
+
+		tippy('#myButton', {
+        content: 'My tooltip!',
+      });

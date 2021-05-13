@@ -12,13 +12,14 @@
 </head>
 <body>
 
+    
 	<div class="container topbot10" >
-		<form >
+		<form>
 			<img src="images/logo.png" style="width:170px; vertical-align:top">
 
 			<div style="float:right; font-size:15px;">
-				<div class="input-group ">
-					<input class="form-control " type="text" name="search" placeholder="Bạn cứ nhập từ khoá, còn lại để 4T lo" style=" position:absolute; right: 100%; width: 400px">
+				<div class="input-group">
+					<input class="form-control" type="text" name="search" placeholder="Bạn cứ nhập từ khoá, còn lại để 4T lo" style="position:absolute; right: 100%; width: 400px">
 					<div class="input-group-append">
 						<button class="btn btn-success" type="submit" style="font-size:16px; border-radius: 0px 5px 5px 0px;">Tìm kiếm</button>
 					</div>
@@ -35,68 +36,75 @@
 	</div>
 
 	<div class="navbarr">
-		<a href="GiaoDienChinh.html" class="tablinks" onclick="openCity(event, 'TrangChu')" style="margin-left: 200px">Trang chủ</a>
-		<a class="tablinks" onclick="openCity(event, 'TruyenHot')">Truyện hot</a>
+		<div class="container">
+			<a href="GiaoDienChinh.html" class="tablinks" onclick="openCity(event, 'TrangChu')">Trang chủ</a>
 
-		<div class="subnav">
-			<button href="#theloai" class="subnavbtn" onclick="myFunction()">Thể loại</button>
-			<div id="myDropdown" class="subnav-content">
-				<input type="text" placeholder="Nhập thể loại bạn muốn tìm kiếm" id="myInput" onkeyup="filterFunction()" style="width:100%"><br>
-				<a href="#company">Action</a>
-				<a href="#company">Adult</a>
-				<a href="#company">Adventure</a>
-				<a href="#company">Anime</a>
-				<a href="#company">Chuyển Sinh</a>
-				<a href="#company">Cổ Đại</a>
-				<a href="#company">Comedy</a>
-				<a href="#company">Demons</a>
-				<a href="#company">Detective</a>
-				<a href="#company">Doujinshi</a>
-				<a href="#company">Drama</a>
-				<a href="#company">Fantasy</a>
-				<a href="#company">Gender Bender</a>
-				<a href="#company">Harem</a>
-				<a href="#company">Huyền Huyễn</a>
-				<a href="#company">Isekai</a>
-				<a href="#company">Magic</a>
-				<a href="#company">Manhua</a>
-				<a href="#company">Manhwa</a>
-				<a href="#company">Ngôn Tình</a>
-				<a href="#company">Psychological</a>
-				<a href="#company">Romance</a>
-				<a href="#company">School Life</a>
-				<a href="#company">Seinen</a>
-				<a href="#company">Supernatural</a>
-				<a href="#company">Trọng Sinh</a>
-				<a href="#company">Truyện Màu</a>
-				<a href="#company">Webtoon</a>
-				<a href="#company">Xuyên Không</a>
+			<a class="tablinks" onclick="openCity(event, 'TruyenHot')">Truyện hot</a>
+			<div class="subnav">
+				<button class="subnavbtn">Thể loại</button>
+				<div id="myDropdown" class="subnav-content">
+					<div class="container">
+						<input class="form-control" type="text" placeholder="Nhập thể loại bạn muốn tìm kiếm" id="myInput" onkeyup="filterFunction()" style="width:100%"><br>
+						<a href="#company">Action</a>
+						<a href="#company">Adult</a>
+						<a href="#company">Adventure</a>
+						<a href="#company">Anime</a>
+						<a href="#company">Chuyển Sinh</a>
+						<a href="#company">Cổ Đại</a>
+						<a href="#company">Comedy</a>
+						<a href="#company">Demons</a>
+						<a href="#company">Detective</a>
+						<a href="#company">Doujinshi</a>
+						<a href="#company">Drama</a>
+						<a href="#company">Fantasy</a>
+						<a href="#company">Gender Bender</a>
+						<a href="#company">Harem</a>
+						<a href="#company">Huyền Huyễn</a>
+						<a href="#company">Isekai</a>
+						<a href="#company">Magic</a>
+						<a href="#company">Manhua</a>
+						<a href="#company">Manhwa</a>
+						<a href="#company">Ngôn Tình</a>
+						<a href="#company">Psychological</a>
+						<a href="#company">Romance</a>
+						<a href="#company">School Life</a>
+						<a href="#company">Seinen</a>
+						<a href="#company">Supernatural</a>
+						<a href="#company">Trọng Sinh</a>
+						<a href="#company">Truyện Màu</a>
+						<a href="#company">Webtoon</a>
+						<a href="#company">Xuyên Không</a>
+					</div>
+				</div>
 			</div>
-		</div>
 
-		<div class="subnav">
-			<button class="subnavbtn">Bảng xếp hạng <!-- <i class="arrow down"></i> --></button>
-			<div class="subnav-content">
-				<a href="#">Top Ngày</a>
-				<a href="#">Top Tuần</a>
-				<a href="#">Top Tháng</a>
-				<a href="#">Top Năm</a>
-				<a href="#">Top Theo Dõi</a>
-				<a href="#">Top Yêu Thích</a>
+			<div class="subnav">
+				<button class="subnavbtn">Bảng xếp hạng</button>
+				<div class="subnav-content">
+					<div class="container">
+						<a href="#">Top Ngày</a>
+						<a href="#">Top Tuần</a>
+						<a href="#">Top Tháng</a>
+						<a href="#">Top Năm</a>
+						<a href="#">Top Theo Dõi</a>
+						<a href="#">Top Yêu Thích</a>
+					</div>
+				</div>
+				
 			</div>
-		</div>
 
-		<a href="#">Lọc truyện</a>
+			<a href="#">Lọc truyện</a>
 		<!-- <a href="#">Truyện con trai</a>
-		<a href="#">Truyện con gái</a> -->
-		<a href="#">Lịch sử đọc</a>
-		<a href="#">Theo dõi</a>
+			<a href="#">Truyện con gái</a> -->
+			<a href="#">Lịch sử đọc</a>
+			<a href="#">Theo dõi</a>
 
-		<a class="openbtn" onclick="openNav()" style="float:right; margin-right:200px">Khác</a> 
+			<a class="openbtn" onclick="openNav()" style="float:right;">Khác</a> 
+		</div>
 	</div>
 
 	<div id="mySidepanel" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="padding: 1px 13px 1px 13px;">×</a>
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 		<a href="#">Fanpage</a>
 		<a href="#">Group</a>
 		<a href="#">Donate</a>
@@ -104,13 +112,13 @@
 	</div>
 
 	<div id="mySidenav">
-		<a href="#" id="truyentranh" style="font-size:15px">Truyện Tranh</a>
+		<a href="GiaoDienChinh.html" id="truyentranh" style="font-size:15px">Truyện Tranh</a>
 		<a href="#" id="tieuthuyet" style="font-size:15px">Tiểu Thuyết</a>
 		<a href="#" id="sach" style="font-size:15px">Cửa hàng sách</a>
 		<a href="#" id="blogg" style="font-size:15px">Blog</a>
 	</div>
 
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="topBtn" title="Lên trên cùng">Top</button>
 
 
 	<div class="container trang">
@@ -119,6 +127,8 @@
 				<li data-target="#demo" data-slide-to="0" class="active"></li>
 				<li data-target="#demo" data-slide-to="1"></li>
 				<li data-target="#demo" data-slide-to="2"></li>
+				<li data-target="#demo" data-slide-to="3"></li>
+				<li data-target="#demo" data-slide-to="4"></li>
 			</ul>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -141,6 +151,20 @@
 						<h3>Attack on titan</h3>
 						<p>Tác phẩm mang lại niềm đau khổ cho mọi người :v</p>
 					</div>   
+				</div>1
+				<div class="carousel-item">
+					<img src="images/slime.jpg" alt="Tensei Shitara Slime Datta Ken" width="100%">
+					<div class="carousel-caption">
+						<h3>Tensei Shitara Slime Datta Ken</h3>
+						<p>Main bá</p>
+					</div>   
+				</div>
+				<div class="carousel-item">
+					<img src="images/tokyo-ghoul.jpg" alt="Tokyo Ghoul" width="100%">
+					<div class="carousel-caption">
+						<h3>Tokyo Ghoul</h3>
+						<p>Tác phẩm hay, mang màu sắc kinh dị nhưng nhân văn và hấp dẫn</p>
+					</div>   
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -150,27 +174,220 @@
 				<span class="carousel-control-next-icon"></span>
 			</a>
 		</div>
-
+		<br>
 
 
 
 		<div class="truyen">
-			<br>
-			<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a>
+			<div class="alert alert-primary">
+		    	<strong>Truyện mới cập nhật</strong><br> 
+		    </div> 	
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" 
+						title="Boku No Hero Academia">
+						<img src="images/kimetsu-no-yaiba1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Kimetsu no yaiba</strong><br> 
+		    				Chương 205
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/boku-no-hero.png">
+						<div class="alert alert-secondary">
+		    				<strong>Boku no hero</strong><br> 
+		    				Chương 303
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/one-piece1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>One Piece</strong><br> 
+		    				Chương 1013
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/fairy-tail.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Fairy tail</strong><br> 
+		    				Chương 545
+		    			</div> 	
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/kimetsu-no-yaiba1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Kimetsu no yaiba</strong><br> 
+		    				Chương 205
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/boku-no-hero.png">
+						<div class="alert alert-secondary">
+		    				<strong>Boku no hero</strong><br> 
+		    				Chương 303
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/one-piece1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>One Piece</strong><br> 
+		    				Chương 1013
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/fairy-tail.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Fairy tail</strong><br> 
+		    				Chương 545
+		    			</div> 	
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/kimetsu-no-yaiba1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Kimetsu no yaiba</strong><br> 
+		    				Chương 205
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/boku-no-hero.png">
+						<div class="alert alert-secondary">
+		    				<strong>Boku no hero</strong><br> 
+		    				Chương 303
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/one-piece1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>One Piece</strong><br> 
+		    				Chương 1013
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/fairy-tail.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Fairy tail</strong><br> 
+		    				Chương 545
+		    			</div> 	
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/kimetsu-no-yaiba1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Kimetsu no yaiba</strong><br> 
+		    				Chương 205
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/boku-no-hero.png">
+						<div class="alert alert-secondary">
+		    				<strong>Boku no hero</strong><br> 
+		    				Chương 303
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/one-piece1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>One Piece</strong><br> 
+		    				Chương 1013
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/fairy-tail.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Fairy tail</strong><br> 
+		    				Chương 545
+		    			</div> 	
+					</a>
+				</div>
+			</div>
+
+
 		</div>
 
-
-
+		<div class="truyen">
+			<div class="alert alert-primary">
+		    	<strong>Truyện nổi bật</strong><br> 
+		    </div> 	
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/kimetsu-no-yaiba1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Kimetsu no yaiba</strong><br> 
+		    				Chương 205
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/boku-no-hero.png">
+						<div class="alert alert-secondary">
+		    				<strong>Boku no hero</strong><br> 
+		    				Chương 303
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/one-piece1.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>One Piece</strong><br> 
+		    				Chương 1013
+		    			</div> 	
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">
+						<img src="images/fairy-tail.jpg">
+						<div class="alert alert-secondary">
+		    				<strong>Fairy tail</strong><br> 
+		    				Chương 545
+		    			</div> 	
+					</a>
+				</div>
+			</div>
+		</div>
 
 	</div>
 	
-
-
-
-
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
 
 
 
@@ -186,8 +403,26 @@
 		<button class="btnn">>></button>
 	</div>
 
+	<br>
+
 	<div class="footer">
-  		<h2>Footer</h2>
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-3">
+	  				<img src="images/logo-footer.png" style="width:220px; margin-bottom: 10px;">
+			    </div>
+			    <div class="col-sm-5">
+	  				<div class="alert alert-secondary">
+			    		<strong>Email: ad.manga4t@gmail.com</strong><br> 
+			    	</div>
+			    </div>
+			    <div class="col-sm-4">
+	  				<div class="alert alert-secondary">
+			    		<strong>Donate: 03858746601 (TPBank)</strong><br> 
+			    	</div>
+			    </div>
+  			</div>
+  		</div>
 	</div>
 
 
@@ -201,7 +436,7 @@
 	</script>
 
 	<script type="text/javascript">
-		var mybutton = document.getElementById("myBtn");
+		var mybutton = document.getElementById("topBtn");
 
 		window.onscroll = function() {scrollFunction()};
 
@@ -218,5 +453,6 @@
 			document.documentElement.scrollTop = 0;
 		}
 	</script>
+
 </body>
 </html>
